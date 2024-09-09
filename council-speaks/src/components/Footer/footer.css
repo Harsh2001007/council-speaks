@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.footer-main-container {
+  height: 50vh;
+  width: 100%;
+  padding: 2vw 4vw;
+}
+
+.img-footer-container {
+  border: 1px solid rebeccapurple;
+  height: 5vw;
+  width: 5.5vw;
+  border-radius: 50%;
+}
+
+.footer-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.footer-logo-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-contact-details {
+  color: white;
+  margin-top: 2vw;
+  width: 30%;
+  line-height: 1.3vw;
+  font-style: italic;
+}
+
+.contact-footer-btn {
+  margin-top: 2vw;
+}
+
+.contact-footer-btn button {
+  padding: 0.5vw 2vw;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 1vw;
+  background: linear-gradient(to right, #fe8760, #9938e3);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-footer-btn button:hover {
+  padding: 0.5vw 2vw;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 1vw;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  transition: 0.3s ease-in;
+}

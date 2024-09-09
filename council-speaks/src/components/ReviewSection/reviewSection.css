@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.reviewMainContainer {
+  width: 100%;
+  height: 58vh;
+  /* background: linear-gradient(to right, #fe8760, #9938e3); */
+  background-color: #20204a;
+}
+
+.review-container {
+  height: 100%;
+}
+
+.review-top {
+  padding: 2vw 4vw;
+}
+
+.review-top h1 {
+  color: white;
+  text-decoration: underline;
+}
+
+.reviewBottom {
+  height: 35vh;
+  width: 100%;
+  padding: 0vw 4vw;
+  display: flex;
+  gap: 5vw;
+}
+
+/* card code  */
+
+.review-card-container {
+  border: 1px solid white;
+  color: white;
+  width: 32%;
+  height: 90%;
+  padding: 1vw 2vw;
+  border-radius: 10px;
+}
+
+.review-top-div {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.user-short-hand {
+  background: linear-gradient(to right, #fe8760, #9938e3);
+  padding: 7px 7px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.review-count {
+  margin-top: 1vw;
+}
+
+.stars-review {
+  color: yellow;
+}
+
+.review-desc {
+  margin-top: 1vw;
+}
+
+.review-desc p {
+  font-style: italic;
+  word-spacing: 5px;
+}
