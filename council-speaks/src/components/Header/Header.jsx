@@ -18,13 +18,13 @@ function Header() {
         <nav className="nav">
           <ul>
             <li>
-              <a href="#">services</a>
+              <a href="#services-scroll">services</a>
             </li>
             <li>
               <a href="#">FAQs</a>
             </li>
             <li>
-              <a href="#">Contact us</a>
+              <a href="#">Contact Us</a>
             </li>
             <button className="btn-grad">Login / Sign up</button>
           </ul>
