@@ -18,7 +18,7 @@ function Header() {
         <nav className="nav">
           <ul>
             <li>
-              <a href="#services-scroll">services</a>
+              <a href="">services</a>
             </li>
             <li>
               <a href="#">FAQs</a>

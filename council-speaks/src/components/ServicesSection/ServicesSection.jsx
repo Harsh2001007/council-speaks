@@ -9,7 +9,7 @@ import healthImg from "../../images/health.jpg";
 function ServicesSection() {
   return (
     <>
-      <div className="servicesMainContainer">
+      <div className="servicesMainContainer" id="services-scroll">
         <div className="servicesContainer">
           <div className="services-top">
             <h1>Our Services</h1>
